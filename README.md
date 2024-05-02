@@ -1,4 +1,4 @@
-# SIEM-Lab-with-Elastic
+# Elastic-Stack-SIEM
 
 <h2>Description</h2>
 
