@@ -55,7 +55,7 @@ This is important to know because we need to set up the agent to collect data fr
   <li>Copy the install code and paste it in your Kali VM. </br>
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/88378521-75e5-42b9-b810-058ea118e68f'>
   </li>
-  <li>When the agent is done downloading, you can check the status of it using: <code>sudo systemctl status elastic-agent.service</code> </br>
+  <li>When the agent is done downloading, you can verify the status of it using: <code>sudo systemctl status elastic-agent.service</code> </br>
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/f537b986-da6d-4859-a418-3e2a8401d66c'>
   </li>
 </ol>
