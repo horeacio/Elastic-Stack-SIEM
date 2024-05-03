@@ -64,7 +64,7 @@ This is important to know because we need to set up the agent to collect data fr
 
 To verify the agent is running properly we can start generating some security events on our VM. We can do this by using Nmap. Nmap is an open-source tool used during the reconnaissance stage of a cybersecurity attack. It scans a target host for open ports that can then be used during the exploit stage. </br>
 
-If this is your introduction to Nmap, I suggest you take this time to play with it and get familiar with it. Perform various scans on your VM, not only will this create more logs for your SIEM but it's an important tool to have under your belt and will be beneficial to your cybersecurity career. Use <code>nmap -h</code> to see the different flags incoporated with it. You can start off by using <code>sudo nmap &lt;your ip address&gt;</code> </br>
+If this is your introduction to Nmap, I suggest you take this time to play with it and get familiar with it. Perform various scans on your VM, not only will this create more logs for your SIEM but it's an important tool to have under your belt and will be beneficial to your cybersecurity career. Use <code>Nmap -h</code> to see the different flags incoporated with it. You can start off by using <code>sudo Nmap &lt;your ip address&gt;</code> </br>
 
 <center>
   <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/a2b9a8b2-c381-488e-a7a4-8e6a1464ebb0'>
@@ -81,7 +81,7 @@ We can now start analyzing the data we generated from the VM to the SIEM.</br>
   <li>In the search bar, enter <code>process.args: "namp".</code>
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/9e7c215e-1d1e-470c-a9f3-cdd64c142746'>
   </li>
-  <li>Click on the three dots to view the details of the log. This shows us that this log was generated from the command <code>sudo nmap 10.0.2.15</code> we ran earlier.
+  <li>Click on the three dots to view the details of the log. This shows us that this log was generated from the command <code>sudo Nmap 10.0.2.15</code> we ran earlier.
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/a25a0c57-eb4b-48b1-928a-8fa651b195a8'>
   </li>
 </ol>
@@ -148,4 +148,11 @@ Now that the alert has been created, it will monitor incoming logs for an Nmap s
 
 <h2>Conclusion</h2>
 
-We have now established a SIEM using Elastic Stack, installed an agent on our Kali Linux VM to forward data from the VM to the SIEM, generated logs using Nmap, queried and analyzed logs for Nmap scans, created a visual dashboard to count security events, and created an alert to detect Nmap
+Throughout this lab, we established a SIEM using Elastic Stack, installed an agent on our Kali Linux VM to forward data from the VM to the SIEM, generated logs using Nmap, queried and analyzed logs for Nmap scans, created a visual dashboard to count events, and created an alert to detect Nmap scans from incoming logs. We now have an environment to keep learning and practicing skills necessary for effective monitoring and incident response using a Elastic Stack SIEM.
+
+To further improve:
+<ul>
+  <li>Try generating different types of events, this could be done by performing attacks or by just using the VM. </li>
+  <li>Test any current alerts and create new ones.</li>
+  <li>Look into Elastic Stack and learn how to use the different analysis tools provided to have a better understanding of analyzing logs. The more familiar you become with the different tools and sources provided, the more effective you become at detecting and responding to security threats. </li>
+</ul>
