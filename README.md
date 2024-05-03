@@ -43,7 +43,19 @@ If you aren't familiar with what an agent is, it's a component installed on an e
 This is important to know because we need to set up the agent to collect data from the VM and send it to the Elastic SIEM.
 
 <ol>
-  <li>Open the sidebar menu located on the top left and click on "Add integrations." bottom. <br>
-      <img src="https://github.com/horeacio/SIEM-Lab-with-Elastic/assets/100793672/a9ecc03a-c666-42cf-a76b-60cb4d865b13">
+  <li>
+    Open the sidebar menu located on the top left and click on "Add integrations." bottom. </br>
+    <img src="https://github.com/horeacio/SIEM-Lab-with-Elastic/assets/100793672/a9ecc03a-c666-42cf-a76b-60cb4d865b13">
 </li>
+  <li>
+    Look for Elastic Defend and click on "Add Elastic Defend" </br>
+    <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/535ccc8a-9580-438d-824b-af5cb4275e02'>
+  </li>
+  <li>Click on "Install Elastic Defend" and follow the instructions to install the agent to your VM.</li>
+  <li>Copy the install code and paste it in your Kali VM. </br>
+    <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/88378521-75e5-42b9-b810-058ea118e68f'>
+  </li>
+  <li>When the agent is done downloading, you can check the status of it using: <code>sudo systemctl status elastic-agent.service</code> </br>
+    <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/f537b986-da6d-4859-a418-3e2a8401d66c'>
+  </li>
 </ol>
