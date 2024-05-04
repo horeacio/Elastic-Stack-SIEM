@@ -5,7 +5,7 @@
 In this lab, I'll be setting up an Elastic SIEM using Elastic Stack and a Kali Linux VM. SIEM stands for Security Information and Event Management and it's a solution that collects, monitors and analyzes log data from a wide range of sources that are then used to detect and respond to security threats in real-time. </br>
 Elastic Stack is a collection of open-source SIEM tools that provides storage, search, and analysis functions.
 
-These tools are:
+Some of these tools are:
 <ul>
   <li>Elasticsearch (query/analytics) </li>
   <li>Logstash (log colleciton/normalization) </li>
