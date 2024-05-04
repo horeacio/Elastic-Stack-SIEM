@@ -79,7 +79,7 @@ We can now start analyzing the data we generated from the VM to the SIEM.</br>
   <li>In the side bar menu, click on "Logs" under the "Observability" blade. 
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/3348f0ba-601a-41b9-94ed-76cc5096b965'>
   </li>
-  <li>In the search bar, enter <code>process.args: "namp".</code>
+  <li>In the search bar, enter <code>process.args: "nmap".</code>
     <img src='https://github.com/horeacio/Elastic-Stack-SIEM/assets/100793672/9e7c215e-1d1e-470c-a9f3-cdd64c142746'>
   </li>
   <li>Click on the three dots to view the details of the log. This shows us that this log was generated from the command <code>sudo Nmap 10.0.2.15</code> we ran earlier.
