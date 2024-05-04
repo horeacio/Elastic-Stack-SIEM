@@ -40,7 +40,7 @@ Some of these tools are:
 </ol>
 
 <h2>Configure Agent for Log Collection</h2>
-If you aren't familiar with what an agent is, it's a component installed on an endpoint (device) to collect and transmit data (logs, events, and metrics) to the SIEM system for analysis. <br>
+If you aren't familiar with what an agent is, it's a component installed on an endpoint (device) to collect and transmit data (logs, events, and metrics) to the SIEM system for analysis. </br>
 This is important to know because we need to set up the agent to collect data from the VM and send it to the Elastic SIEM. </br>
 
 <ol>
