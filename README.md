@@ -36,7 +36,7 @@ Some of these tools are:
 <ol>
   <li>Download Kali Linux from the <a href="https://www.kali.org/get-kali/#kali-virtual-machines">website.</a></li>
   <li>Create a new VM using the file downloaded from the site in either VBox or Vmware. </li>
-  <li>Start the VM and follow the prompts on the screen to install Kali, choose your credentials for the username and password. </li>
+  <li>Start the VM and follow the prompts to install Kali, choose your credentials for the username and password. </li>
 </ol>
 
 <h2>Configure Agent for Log Collection</h2>
